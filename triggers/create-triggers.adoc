@@ -1,0 +1,16 @@
+:_content-type: ASSEMBLY
+include::../includes/common-attributes.adoc[]
+[id="create-triggers"]
+= Creating triggers
+
+
+include::../includes/serverless-brokers-intro.adoc[]
+
+// Trigger
+include::../includes/serverless-creating-trigger-admin-web-console.adoc[leveloffset=+1]
+
+// ODC
+include::../includes/serverless-create-trigger-odc.adoc[leveloffset=+1]
+
+// kn trigger
+include::../includes/serverless-create-kn-trigger.adoc[leveloffset=+1]

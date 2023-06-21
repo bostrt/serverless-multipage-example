@@ -1,0 +1,24 @@
+// Module included in the following assemblies:
+//
+// * serverless/eventing/brokers/serverless-using-brokers.adoc
+
+:_content-type: PROCEDURE
+[id="serverless-creating-broker-admin-web-console_{context}"]
+= Creating a broker by using the Administrator perspective
+
+include::./serverless-brokers-intro.adoc[]
+
+.Prerequisites
+
+* The {ServerlessOperatorName} and Knative Eventing are installed on your {ocp-product-title} cluster.
+
+* You have logged in to the web console and are in the *Administrator* perspective.
+
+* You have cluster administrator permissions on {ocp-product-title}, or you have cluster or dedicated administrator permissions on {rosa-product-title} or {dedicated-product-title}.
+
+.Procedure
+
+. In the *Administrator* perspective of the {ocp-product-title} web console, navigate to *Serverless* -> *Eventing*.
+. In the *Create* list, select *Broker*. You will be directed to the *Create Broker* page.
+. Optional: Modify the YAML configuration for the broker.
+. Click *Create*.

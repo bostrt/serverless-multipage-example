@@ -1,0 +1,10 @@
+:_content-type: ASSEMBLY
+include::../includes/common-attributes.adoc[]
+[id="serverless-kafka-admin-security-channels"]
+= Security configuration for channels
+:context: serverless-kafka-admin-security-channels
+
+
+// kafka channel security config
+include::../includes/serverless-kafka-tls-channels.adoc[leveloffset=+1]
+include::../includes/serverless-kafka-sasl-channels.adoc[leveloffset=+1]

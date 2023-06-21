@@ -1,0 +1,9 @@
+:_content-type: ASSEMBLY
+include::../includes/common-attributes.adoc[]
+[id="serverless-brokers"]
+= Brokers
+:context: serverless-brokers
+
+
+include::../includes/serverless-brokers-intro.adoc[]
+

@@ -1,0 +1,24 @@
+:_content-type: ASSEMBLY
+include::../includes/common-attributes.adoc[]
+[id="serverless-kafka-developer-source"]
+= Source for Apache Kafka
+:context: serverless-kafka-developer-source
+
+
+You can create an Apache Kafka source that reads events from an Apache Kafka cluster and passes these events to a sink. You can create a Kafka source by using the {ocp-product-title} web console, the Knative (`kn`) CLI, or by creating a `KafkaSource` object directly as a YAML file and using the OpenShift CLI (`oc`) to apply it.
+
+
+[NOTE]
+====
+See the documentation for link:https://access.redhat.com/documentation/en-us/red_hat_openshift_serverless/1.29/html-single/installing_serverless/#serverless-install-kafka-odc_installing-knative-eventing[Installing Knative broker for Apache Kafka].
+====
+
+// dev console
+include::../includes/serverless-kafka-source-odc.adoc[leveloffset=+1]
+// kn commands
+include::../includes/serverless-kafka-source-kn.adoc[leveloffset=+1]
+include::../includes/specifying-sink-flag-kn.adoc[leveloffset=+2]
+// YAML
+include::../includes/serverless-kafka-source-yaml.adoc[leveloffset=+1]
+
+include::../includes/serverless-kafka-sasl-source.adoc[leveloffset=+1]
