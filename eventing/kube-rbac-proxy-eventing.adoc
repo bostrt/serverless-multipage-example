@@ -1,0 +1,10 @@
+:_content-type: ASSEMBLY
+include::includes/common-attributes.adoc[]
+[id="kube-rbac-proxy-eventing"]
+= Configuring kube-rbac-proxy for Eventing
+:context: kube-rbac-proxy-eventing
+
+
+The `kube-rbac-proxy` component provides internal authentication and authorization capabilities for Knative Eventing.
+
+include::includes/serverless-configuring-kube-rbac-proxy-resources-for-eventing.adoc[leveloffset=+1]

@@ -1,0 +1,37 @@
+:_content-type: ASSEMBLY
+[id="serverless-applications"]
+= Serverless applications
+include::../includes/common-attributes.adoc[]
+:context: serverless-applications
+
+
+include::../includes/serverless-apps.adoc[]
+
+You can create a serverless application by using one of the following methods:
+
+* Create a Knative service from the {ocp-product-title} web console.
++
+For {ocp-product-title}, see link:https://docs.openshift.com/container-platform/latest/applications/creating_applications/odc-creating-applications-using-developer-perspective.html#odc-creating-applications-using-developer-perspective[Creating applications using the Developer perspective] for more information.
+
+* Create a Knative service by using the Knative (`kn`) CLI.
+* Create and apply a Knative `Service` object as a YAML file, by using the `oc` CLI.
+
+// create service using CLI
+include::../includes/creating-serverless-apps-kn.adoc[leveloffset=+1]
+
+// create service using YAML
+include::../includes/creating-serverless-apps-yaml.adoc[leveloffset=+1]
+
+If you do not want to switch to the *Developer* perspective in the {ocp-product-title} web console or use the Knative (`kn`) CLI or YAML files, you can create Knative components by using the *Administator* perspective of the {ocp-product-title} web console.
+
+// Create services as an admin
+include::../includes/creating-serverless-apps-admin-console.adoc[leveloffset=+1]
+
+// offline mode
+include::../includes/kn-service-offline-create.adoc[leveloffset=+1]
+
+[id="additional-resources_serverless-applications"]
+[role="_additional-resources"]
+== Additional resources
+* link:https://access.redhat.com/documentation/en-us/red_hat_openshift_serverless/1.29/html-single/knative_cli/#kn-service[Knative Serving CLI commands]
+* xref:serverless-ossm-with-kourier-jwt[Configuring JSON Web Token authentication for Knative services]

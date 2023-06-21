@@ -1,0 +1,31 @@
+= Functions
+:product-author: Red Hat OpenShift Documentation Team
+:product-title: Red Hat OpenShift Serverless
+:product-version: 1.29
+:openshift-serverless:
+:imagesdir: images
+:idseparator: -
+
+include::serverless-functions-setup.adoc[leveloffset=+1]
+
+include::serverless-functions-getting-started.adoc[leveloffset=+1]
+
+include::serverless-functions-on-cluster-builds.adoc[leveloffset=+1]
+
+include::serverless-developing-quarkus-functions.adoc[leveloffset=+1]
+
+include::serverless-developing-nodejs-functions.adoc[leveloffset=+1]
+
+include::serverless-developing-typescript-functions.adoc[leveloffset=+1]
+
+include::serverless-developing-python-functions.adoc[leveloffset=+1]
+
+include::serverless-functions-eventing.adoc[leveloffset=+1]
+
+include::serverless-functions-yaml.adoc[leveloffset=+1]
+
+include::serverless-functions-accessing-secrets-configmaps.adoc[leveloffset=+1]
+
+include::serverless-functions-annotations.adoc[leveloffset=+1]
+
+include::serverless-functions-reference-guide.adoc[leveloffset=+1]

@@ -1,0 +1,14 @@
+:_content-type: ASSEMBLY
+include::../includes/common-attributes.adoc[]
+[id="kn-service"]
+= kn service commands
+:context: kn-service
+
+
+You can use the following commands to create and manage Knative services.
+
+
+include::../includes/creating-serverless-apps-kn.adoc[leveloffset=+1]
+include::../includes/kn-service-update.adoc[leveloffset=+1]
+include::../includes/kn-service-apply.adoc[leveloffset=+1]
+include::../includes/kn-service-describe.adoc[leveloffset=+1]

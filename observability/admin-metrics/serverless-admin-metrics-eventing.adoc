@@ -1,0 +1,15 @@
+:_content-type: ASSEMBLY
+include::../includes/common-attributes.adoc[]
+[id="serverless-admin-metrics-eventing"]
+= Knative Eventing metrics
+:context: serverless-admin-metrics-eventing
+
+
+Cluster administrators can view the following metrics for Knative Eventing components.
+
+By aggregating the metrics from HTTP code, events can be separated into two categories; successful events (2xx) and failed events (5xx).
+
+include::../includes/serverless-broker-ingress-metrics.adoc[leveloffset=+1]
+include::../includes/serverless-broker-filter-metrics.adoc[leveloffset=+1]
+include::../includes/serverless-inmemory-dispatch-metrics.adoc[leveloffset=+1]
+include::../includes/serverless-event-source-metrics.adoc[leveloffset=+1]

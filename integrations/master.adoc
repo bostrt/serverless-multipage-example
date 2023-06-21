@@ -1,0 +1,13 @@
+= Integrations
+:product-author: Red Hat OpenShift Documentation Team
+:product-title: Red Hat OpenShift Serverless
+:product-version: 1.29
+:openshift-serverless:
+:imagesdir: images
+:idseparator: -
+
+include::serverless-ossm-setup.adoc[leveloffset=+1]
+
+include::serverless-cost-management-integration.adoc[leveloffset=+1]
+
+include::gpu-resources.adoc[leveloffset=+1]

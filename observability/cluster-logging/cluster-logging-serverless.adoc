@@ -1,0 +1,11 @@
+:_content-type: ASSEMBLY
+include::../includes/common-attributes.adoc[]
+[id="cluster-logging-serverless"]
+= Using OpenShift Logging with {ServerlessProductName}
+:context: cluster-logging-serverless
+
+
+:openshift-enterprise:
+include::../includes/cluster-logging-about.adoc[leveloffset=+1]
+include::../includes/cluster-logging-deploying-about.adoc[leveloffset=+1]
+:openshift-enterprise!:

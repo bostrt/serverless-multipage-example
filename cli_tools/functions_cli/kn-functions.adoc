@@ -1,0 +1,16 @@
+:_content-type: ASSEMBLY
+include::../includes/common-attributes.adoc[]
+[id="kn-functions"]
+= kn functions commands
+:context: kn-functions
+
+
+include::../includes/serverless-create-func-kn.adoc[leveloffset=+1]
+include::../includes/serverless-kn-func-run.adoc[leveloffset=+1]
+include::../includes/serverless-build-func-kn.adoc[leveloffset=+1]
+include::../includes/serverless-deploy-func-kn.adoc[leveloffset=+1]
+include::../includes/functions-list-kn.adoc[leveloffset=+1]
+include::../includes/describe-function-kn.adoc[leveloffset=+1]
+include::../includes/serverless-kn-func-invoke.adoc[leveloffset=+1]
+include::../includes/serverless-kn-func-invoke-reference.adoc[leveloffset=+2]
+include::../includes/serverless-kn-func-delete.adoc[leveloffset=+1]

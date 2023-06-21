@@ -1,0 +1,97 @@
+= Serving
+:product-author: Red Hat OpenShift Documentation Team
+:product-title: Red Hat OpenShift Serverless
+:product-version: 1.29
+:openshift-serverless:
+:imagesdir: images
+:idseparator: -
+
+== Getting started with Knative Serving
+include::getting-started/serverless-applications.adoc[leveloffset=+2]
+
+include::getting-started/verifying-application-deployment.adoc[leveloffset=+2]
+
+== Autoscaling
+include::autoscaling/serverless-autoscaling-developer.adoc[leveloffset=+2]
+
+include::autoscaling/serverless-autoscaling-developer-scale-bounds.adoc[leveloffset=+2]
+
+include::autoscaling/serverless-concurrency.adoc[leveloffset=+2]
+
+include::autoscaling/serverless-autoscaling-scale-to-zero.adoc[leveloffset=+2]
+
+== Configuring Serverless applications
+include::config-applications/overriding-config-serving.adoc[leveloffset=+2]
+
+include::config-applications/multi-container-support-for-serving.adoc[leveloffset=+2]
+
+include::config-applications/empty-dir.adoc[leveloffset=+2]
+
+include::config-applications/pvcs-for-serving.adoc[leveloffset=+2]
+
+include::config-applications/init-containers.adoc[leveloffset=+2]
+
+include::config-applications/resolving-image-tags-to-digests.adoc[leveloffset=+2]
+
+include::config-applications/serverless-config-tls.adoc[leveloffset=+2]
+
+include::config-applications/restrictive-network-policies.adoc[leveloffset=+2]
+
+== Traffic splitting
+include::traffic-splitting/traffic-splitting-overview.adoc[leveloffset=+2]
+
+include::traffic-splitting/traffic-spec-examples.adoc[leveloffset=+2]
+
+include::traffic-splitting/traffic-splitting-using-cli.adoc[leveloffset=+2]
+
+include::traffic-splitting/traffic-splitting-flags.adoc[leveloffset=+2]
+
+include::traffic-splitting/traffic-splitting-revisions.adoc[leveloffset=+2]
+
+include::traffic-splitting/traffic-splitting-blue-green.adoc[leveloffset=+2]
+
+== External and Ingress routing
+include::external-ingress-routing/routing-overview.adoc[leveloffset=+2]
+
+include::external-ingress-routing/customize-labels-annotations-routes.adoc[leveloffset=+2]
+
+include::external-ingress-routing/configuring-service-routes.adoc[leveloffset=+2]
+
+include::external-ingress-routing/https-redirect-global.adoc[leveloffset=+2]
+
+include::external-ingress-routing/url-scheme-external-routes.adoc[leveloffset=+2]
+
+include::external-ingress-routing/https-redirect-per-service.adoc[leveloffset=+2]
+
+include::external-ingress-routing/cluster-local-availability.adoc[leveloffset=+2]
+
+include::external-ingress-routing/kourier-gateway-service-type.adoc[leveloffset=+2]
+
+include::external-ingress-routing/using-http2-gRPC.adoc[leveloffset=+2]
+
+== Configuring access to Knative services
+include::config-access/serverless-ossm-with-kourier-jwt.adoc[leveloffset=+2]
+
+include::config-access/serverless-ossm-v2x-jwt.adoc[leveloffset=+2]
+
+include::config-access/serverless-ossm-v1x-jwt.adoc[leveloffset=+2]
+
+include::kube-rbac-proxy-serving.adoc[leveloffset=+1]
+
+== Configuring custom domains for Knative services
+include::config-custom-domains/serverless-custom-domains.adoc[leveloffset=+2]
+
+include::config-custom-domains/create-domain-mapping.adoc[leveloffset=+2]
+
+include::config-custom-domains/create-domain-mapping-kn.adoc[leveloffset=+2]
+
+include::config-custom-domains/domain-mapping-odc-developer.adoc[leveloffset=+2]
+
+include::config-custom-domains/domain-mapping-odc-admin.adoc[leveloffset=+2]
+
+include::config-custom-domains/domain-mapping-custom-tls-cert.adoc[leveloffset=+2]
+
+== Configuring high availability for Knative services
+include::config-ha-services/ha-services-overview.adoc[leveloffset=+2]
+
+include::config-ha-services/ha-replicas-serving.adoc[leveloffset=+2]

@@ -1,0 +1,45 @@
+= Observability
+:product-author: Red Hat OpenShift Documentation Team
+:product-title: Red Hat OpenShift Serverless
+:product-version: 1.29
+:openshift-serverless:
+:imagesdir: images
+:idseparator: -
+
+== Administrator metrics
+include::admin-metrics/serverless-admin-metrics.adoc[leveloffset=+2]
+
+include::admin-metrics/serverless-controller-metrics.adoc[leveloffset=+2]
+
+include::admin-metrics/serverless-webhook-metrics.adoc[leveloffset=+2]
+
+include::admin-metrics/serverless-admin-metrics-eventing.adoc[leveloffset=+2]
+
+include::admin-metrics/serverless-admin-metrics-serving.adoc[leveloffset=+2]
+
+== Developer metrics
+include::developer-metrics/serverless-developer-metrics.adoc[leveloffset=+2]
+
+include::developer-metrics/serverless-monitoring-services-default-metrics.adoc[leveloffset=+2]
+
+include::developer-metrics/serverless-monitoring-services-custom-metrics.adoc[leveloffset=+2]
+
+include::developer-metrics/serverless-monitoring-services-configuration-scraping.adoc[leveloffset=+2]
+
+include::developer-metrics/serverless-monitoring-services-examining-metrics.adoc[leveloffset=+2]
+
+include::developer-metrics/serverless-developer-metrics-dashboard.adoc[leveloffset=+2]
+
+== Cluster logging
+include::cluster-logging/cluster-logging-serverless.adoc[leveloffset=+2]
+
+include::cluster-logging/finding-serving-logs-components.adoc[leveloffset=+2]
+
+include::cluster-logging/finding-serving-logs-services.adoc[leveloffset=+2]
+
+== Tracing
+include::tracing/serverless-tracing.adoc[leveloffset=+2]
+
+include::tracing/serverless-tracing-open-telemetry.adoc[leveloffset=+2]
+
+include::tracing/serverless-tracing-jaeger.adoc[leveloffset=+2]

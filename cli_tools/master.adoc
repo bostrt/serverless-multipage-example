@@ -1,0 +1,26 @@
+= Knative CLI
+:product-author: Red Hat OpenShift Documentation Team
+:product-title: Red Hat OpenShift Serverless
+:product-version: 1.29
+:openshift-serverless:
+:imagesdir: images
+:idseparator: -
+
+== Knative Serving CLI commands
+include::serving_cli/kn-service.adoc[leveloffset=+2]
+
+include::serving_cli/kn-service-offline.adoc[leveloffset=+2]
+
+include::serving_cli/kn-container.adoc[leveloffset=+2]
+
+include::serving_cli/kn-domain.adoc[leveloffset=+2]
+
+include::advanced-kn-config.adoc[leveloffset=+1]
+
+include::kn-plugins.adoc[leveloffset=+1]
+
+== Knative Eventing CLI commands
+include::eventing_cli/kn-source.adoc[leveloffset=+2]
+
+== Knative Functions CLI commands
+include::functions_cli/kn-functions.adoc[leveloffset=+2]

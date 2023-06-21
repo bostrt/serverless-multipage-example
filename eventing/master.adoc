@@ -1,0 +1,97 @@
+= Eventing
+:product-author: Red Hat OpenShift Documentation Team
+:product-title: Red Hat OpenShift Serverless
+:product-version: 1.29
+:openshift-serverless:
+:imagesdir: images
+:idseparator: -
+
+include::knative-eventing.adoc[leveloffset=+1]
+
+== Event sources
+include::event-sources/knative-event-sources.adoc[leveloffset=+2]
+
+include::event-sources/event-source-admin-perspective.adoc[leveloffset=+2]
+
+include::event-sources/serverless-apiserversource.adoc[leveloffset=+2]
+
+include::event-sources/serverless-pingsource.adoc[leveloffset=+2]
+
+include::event-sources/serverless-kafka-developer-source.adoc[leveloffset=+2]
+
+include::event-sources/serverless-custom-event-sources.adoc[leveloffset=+2]
+
+include::event-sources/serverless-sink-source-odc.adoc[leveloffset=+2]
+
+== Event sinks
+include::event-sinks/serverless-event-sinks.adoc[leveloffset=+2]
+
+include::event-sinks/serverless-creating-sinks.adoc[leveloffset=+2]
+
+include::event-sinks/serverless-kafka-developer-sink.adoc[leveloffset=+2]
+
+== Brokers
+include::brokers/serverless-brokers.adoc[leveloffset=+2]
+
+include::brokers/serverless-broker-types.adoc[leveloffset=+2]
+
+include::brokers/serverless-using-brokers.adoc[leveloffset=+2]
+
+include::brokers/serverless-broker-backing-channel-default.adoc[leveloffset=+2]
+
+include::brokers/serverless-global-config-broker-class-default.adoc[leveloffset=+2]
+
+include::brokers/kafka-broker.adoc[leveloffset=+2]
+
+include::brokers/serverless-using-brokers-managing-brokers.adoc[leveloffset=+2]
+
+include::brokers/serverless-event-delivery.adoc[leveloffset=+2]
+
+== Triggers
+include::triggers/serverless-triggers.adoc[leveloffset=+2]
+
+include::triggers/create-triggers.adoc[leveloffset=+2]
+
+include::triggers/list-triggers-cli.adoc[leveloffset=+2]
+
+include::triggers/describe-triggers-cli.adoc[leveloffset=+2]
+
+include::triggers/connect-trigger-sink.adoc[leveloffset=+2]
+
+include::triggers/filter-triggers-cli.adoc[leveloffset=+2]
+
+include::triggers/update-triggers-cli.adoc[leveloffset=+2]
+
+include::triggers/delete-triggers-cli.adoc[leveloffset=+2]
+
+== Channels
+include::channels/serverless-channels.adoc[leveloffset=+2]
+
+include::channels/serverless-creating-channels.adoc[leveloffset=+2]
+
+include::channels/connecting-channels-sinks.adoc[leveloffset=+2]
+
+include::channels/serverless-channel-default.adoc[leveloffset=+2]
+
+include::channels/serverless-kafka-admin-security-channels.adoc[leveloffset=+2]
+
+== Subscriptions
+include::subscriptions/serverless-subs.adoc[leveloffset=+2]
+
+include::subscriptions/serverless-subs-managing.adoc[leveloffset=+2]
+
+== Event discovery
+include::discovery/serverless-listing-event-sources.adoc[leveloffset=+2]
+
+include::discovery/list-event-source-types-cli.adoc[leveloffset=+2]
+
+include::discovery/list-event-source-types-odc.adoc[leveloffset=+2]
+
+include::discovery/list-event-sources-cli.adoc[leveloffset=+2]
+
+== Tuning eventing configuration
+include::tuning/overriding-config-eventing.adoc[leveloffset=+2]
+
+include::tuning/serverless-ha.adoc[leveloffset=+2]
+
+include::kube-rbac-proxy-eventing.adoc[leveloffset=+1]

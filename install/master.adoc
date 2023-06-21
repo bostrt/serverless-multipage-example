@@ -1,0 +1,25 @@
+= Installing Serverless
+:product-author: Red Hat OpenShift Documentation Team
+:product-title: Red Hat OpenShift Serverless
+:product-version: 1.29
+:openshift-serverless:
+:imagesdir: images
+:idseparator: -
+
+include::preparing-serverless-install.adoc[leveloffset=+1]
+
+include::install-serverless-operator.adoc[leveloffset=+1]
+
+include::installing-kn.adoc[leveloffset=+1]
+
+include::installing-knative-serving.adoc[leveloffset=+1]
+
+include::installing-knative-eventing.adoc[leveloffset=+1]
+
+include::serverless-kafka-admin.adoc[leveloffset=+1]
+
+include::kube-rbac-proxy-kafka.adoc[leveloffset=+1]
+
+include::configuring-serverless-functions.adoc[leveloffset=+1]
+
+include::serverless-upgrades.adoc[leveloffset=+1]

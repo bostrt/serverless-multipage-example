@@ -1,0 +1,17 @@
+= Removing Serverless
+:product-author: Red Hat OpenShift Documentation Team
+:product-title: Red Hat OpenShift Serverless
+:product-version: 1.29
+:openshift-serverless:
+:imagesdir: images
+:idseparator: -
+
+include::removing-openshift-serverless.adoc[leveloffset=+1]
+
+include::uninstalling-knative-eventing.adoc[leveloffset=+1]
+
+include::uninstalling-knative-serving.adoc[leveloffset=+1]
+
+include::removing-serverless-operator.adoc[leveloffset=+1]
+
+include::deleting-serverless-crds.adoc[leveloffset=+1]

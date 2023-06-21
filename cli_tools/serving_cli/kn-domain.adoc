@@ -1,0 +1,11 @@
+:_content-type: ASSEMBLY
+include::../includes/common-attributes.adoc[]
+[id="kn-domain"]
+= kn domain commands
+:context: kn-domain
+
+
+You can use the following commands to create and manage domain mappings.
+
+include::../includes/serverless-create-domain-mapping-kn.adoc[leveloffset=+1]
+include::../includes/serverless-manage-domain-mapping-kn.adoc[leveloffset=+1]

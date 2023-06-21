@@ -1,0 +1,71 @@
+:_content-type: ASSEMBLY
+include::includes/common-attributes.adoc[]
+[id="serverless-release-notes"]
+= Release notes
+:context: serverless-release-notes
+
+
+[NOTE]
+====
+For additional information about the {ServerlessProductName} life cycle and supported platforms, refer to the link:https://access.redhat.com/support/policy/updates/openshift#ossrvless[Platform Life Cycle Policy].
+====
+
+Release notes contain information about new and deprecated features, breaking changes, and known issues. The following release notes apply for the most recent {ServerlessProductName} releases on {ocp-product-title}.
+
+For an overview of {ServerlessProductName} functionality, see xref:about-serverless[About {ServerlessProductName}].
+
+[NOTE]
+====
+{ServerlessProductName} is based on the open source Knative project.
+
+For details about the latest Knative component releases, see the link:https://knative.dev/blog/[Knative blog].
+====
+
+include::includes/serverless-api-versions.adoc[leveloffset=+1]
+include::includes/serverless-tech-preview-features.adoc[leveloffset=+1]
+include::includes/serverless-deprecated-removed-features.adoc[leveloffset=+1]
+
+// Release notes included, most to least recent
+// OCP + OSD + ROSA
+include::includes/serverless-rn-1-29-0.adoc[leveloffset=+1]
+// 1.29.0 additional resources
+[role="_additional-resources"]
+.Additional resources
+* link:https://openshift-knative.github.io/docs/docs/latest/serverless-logic/about.html[Red Hat OpenShift Serverless Logic documentation]
+
+// OCP + OSD + ROSA
+include::includes/serverless-rn-1-28-0.adoc[leveloffset=+1]
+
+// OCP + OSD + ROSA
+include::includes/serverless-rn-1-27-0.adoc[leveloffset=+1]
+
+// OCP + OSD + ROSA
+include::includes/serverless-rn-1-26-0.adoc[leveloffset=+1]
+// 1.26.0 additional resources
+[role="_additional-resources"]
+.Additional resources
+* link:https://knative.dev/docs/eventing/experimental-features/new-trigger-filters/[Knative documentation on new trigger filters]
+
+// OCP + OSD + ROSA
+include::includes/serverless-rn-1-25-0.adoc[leveloffset=+1]
+// 1.25.0 additional resources, OCP docs
+
+[role="_additional-resources"]
+.Additional resources for {ocp-product-title}
+* link:https://access.redhat.com/documentation/en-us/red_hat_openshift_serverless/1.29/html-single/serving/#serverless-config-tls[Configuring TLS authentication]
+
+include::includes/serverless-rn-1-24-0.adoc[leveloffset=+1]
+include::includes/serverless-rn-1-23-0.adoc[leveloffset=+1]
+
+// 1.23.0 additional resources, OCP docs
+
+[role="_additional-resources"]
+.Additional resources for {ocp-product-title}
+* link:https://docs.openshift.com/container-platform/latest/openshift_images/using_images/using-s21-images.html#using-s21-images[Source-to-Image]
+
+include::includes/serverless-rn-1-22-0.adoc[leveloffset=+1]
+include::includes/serverless-rn-1-21-0.adoc[leveloffset=+1]
+include::includes/serverless-rn-1-20-0.adoc[leveloffset=+1]
+
+include::includes/serverless-rn-1-19-0.adoc[leveloffset=+1]
+include::includes/serverless-rn-1-18-0.adoc[leveloffset=+1]

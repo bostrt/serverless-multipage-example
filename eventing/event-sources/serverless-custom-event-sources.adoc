@@ -1,0 +1,37 @@
+:_content-type: ASSEMBLY
+[id="serverless-custom-event-sources"]
+= Custom event sources
+include::../includes/common-attributes.adoc[]
+:context: serverless-custom-event-sources
+
+
+If you need to ingress events from an event producer that is not included in Knative, or from a producer that emits events which are not in the `CloudEvent` format, you can do this by creating a custom event source. You can create a custom event source by using one of the following methods:
+
+* Use a `PodSpecable` object as an event source, by creating a sink binding.
+* Use a container as an event source, by creating a container source.
+
+// sinkbinding intro
+include::../includes/serverless-sinkbinding-intro.adoc[leveloffset=+1]
+// YAML
+include::../includes/serverless-sinkbinding-yaml.adoc[leveloffset=+2]
+// kn commands
+include::../includes/serverless-sinkbinding-kn.adoc[leveloffset=+2]
+include::../includes/specifying-sink-flag-kn.adoc[leveloffset=+3]
+// ODC
+include::../includes/serverless-sinkbinding-odc.adoc[leveloffset=+2]
+// Reference
+include::../includes/serverless-sinkbinding-reference.adoc[leveloffset=+2]
+
+[id="serverless-custom-event-sources-containersource"]
+== Container source
+
+Container sources create a container image that generates events and sends events to a sink. You can use a container source to create a custom event source, by creating a container image and a `ContainerSource` object that uses your image URI.
+
+// intro
+include::../includes/serverless-containersource-guidelines.adoc[leveloffset=+2]
+// kn
+include::../includes/serverless-kn-containersource.adoc[leveloffset=+2]
+// ODC
+include::../includes/serverless-odc-create-containersource.adoc[leveloffset=+2]
+// Reference
+include::../includes/serverless-containersource-reference.adoc[leveloffset=+2]

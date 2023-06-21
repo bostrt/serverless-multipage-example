@@ -1,0 +1,15 @@
+:_content-type: ASSEMBLY
+[id="kn-source"]
+= kn source commands
+include::../includes/common-attributes.adoc[]
+:context: kn-source
+
+
+You can use the following commands to list, create, and manage Knative event sources.
+
+include::../includes/serverless-list-source-types-kn.adoc[leveloffset=+1]
+include::../includes/specifying-sink-flag-kn.adoc[leveloffset=+1]
+include::../includes/serverless-kn-containersource.adoc[leveloffset=+1]
+include::../includes/apiserversource-kn.adoc[leveloffset=+1]
+include::../includes/serverless-pingsource-kn.adoc[leveloffset=+1]
+include::../includes/serverless-kafka-source-kn.adoc[leveloffset=+1]

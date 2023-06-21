@@ -1,0 +1,26 @@
+// Module included in the following assemblies:
+//
+//  * serverless/install/removing-openshift-serverless.adoc
+
+:_content-type: PROCEDURE
+[id="serverless-deleting-crds_{context}"]
+= Removing {ServerlessProductName} Operator and API CRDs
+
+Delete the Operator and API CRDs using the following procedure.
+
+.Prerequisites
+
+* Install the OpenShift CLI (`oc`).
+
+* You have cluster administrator permissions on {ocp-product-title}, or you have cluster or dedicated administrator permissions on {rosa-product-title} or {dedicated-product-title}.
+
+* You have uninstalled Knative Serving and removed the {ServerlessOperatorName}.
+
+.Procedure
+
+* To delete the remaining {ServerlessProductName} CRDs, enter the following command:
++
+[source,terminal]
+----
+$ oc get crd -oname | grep 'knative.dev' | xargs oc delete
+----

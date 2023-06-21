@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+[id="serverless-subs-managing"]
+= Managing subscriptions
+include::../includes/common-attributes.adoc[]
+:context: serverless-subs-managing
+
+
+// describe subs
+include::../includes/serverless-describe-subs-kn.adoc[leveloffset=+1]
+// list subs
+include::../includes/serverless-list-subs-kn.adoc[leveloffset=+1]
+// update subs
+include::../includes/serverless-update-subscriptions-kn.adoc[leveloffset=+1]
