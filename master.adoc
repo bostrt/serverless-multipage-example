@@ -1,0 +1,19 @@
+= About Serverless
+:product-author: Red Hat OpenShift Documentation Team
+:product-title: Red Hat OpenShift Serverless
+:product-version: 1.29
+:openshift-serverless:
+:imagesdir: images
+:idseparator: -
+
+include::serverless-release-notes.adoc[leveloffset=+1]
+
+include::about-serverless.adoc[leveloffset=+1]
+
+include::about-knative-serving.adoc[leveloffset=+1]
+
+include::about-knative-eventing.adoc[leveloffset=+1]
+
+include::serverless-functions-about.adoc[leveloffset=+1]
+
+include::serverless-support.adoc[leveloffset=+1]
