@@ -1,12 +1,14 @@
+:doctype: book
+:toc: left
+:toclevels: 3
+:sectnums:
+include::redhat-taxonomy[]
+include::attributes.adoc[]
+
 = Eventing
-:product-author: Red Hat OpenShift Documentation Team
-:product-title: Red Hat OpenShift Serverless
-:product-version: 1.29
-:openshift-serverless:
-:imagesdir: images
-:idseparator: -
 
 include::knative-eventing.adoc[leveloffset=+1]
+
 
 == Event sources
 include::event-sources/knative-event-sources.adoc[leveloffset=+2]

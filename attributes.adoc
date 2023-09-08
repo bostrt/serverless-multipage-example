@@ -1,0 +1,28 @@
+:_parent-product: {ocp_product_d796}
+:_parent-version: 4.13
+:_product-name: {openshift_serverless_component_1ba8}
+:_product-version: 1.2.9
+:_product-alias: {openshift_serverless_acronym_b16e}
+:_content-type: {product_and_service_documentation}
+:_mod-docs-content-type: ASSEMBLY
+:_topics: {serverless}, {cloud}
+:_proficiency: Basic
+
+:_product-author: Red Hat OpenShift Documentation Team
+
+:product-title: {openshift_serverless_component_1ba8}
+:product-version: {_product-version}
+:openshift-serverless:
+:imagesdir: images
+:idseparator: -
+:attribute-missing: warn
+:attribute-undefined: warn
+:experimental:
+:prewrap!:
+:kebab: image:kebab.png[title="Options menu"]
+:ocp-product-title: {ocp_product_d796}
+:ocp-product-version: {_parent-version}
+:dedicated-product-title: {openshift_dedicated_product_f6ae}
+:rosa-product-title: {openshift_service_on_aws_product_17e7}
+:ServerlessProductName: {openshift_serverless_component_1ba8}
+:ServerlessOperatorName: OpenShift Serverless Operator

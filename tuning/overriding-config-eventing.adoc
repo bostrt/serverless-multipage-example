@@ -1,4 +1,5 @@
 :_content-type: ASSEMBLY
+:_proficiency: Advanced
 include::../includes/common-attributes.adoc[]
 [id="overriding-config-eventing"]
 =  Overriding Knative Eventing system deployment configurations
