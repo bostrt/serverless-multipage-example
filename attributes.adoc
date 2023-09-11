@@ -5,7 +5,7 @@
 :_product-alias: {openshift_serverless_acronym_b16e}
 :_content-type: {product_and_service_documentation}
 :_mod-docs-content-type: ASSEMBLY
-:_topics: {serverless}, {cloud}
+:_topics: {serverless}, {cloud}, {_product-name} {_product-version}, {_product-alias}
 :_proficiency: Basic
 
 :_product-author: Red Hat OpenShift Documentation Team
