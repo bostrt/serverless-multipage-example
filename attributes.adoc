@@ -23,6 +23,6 @@
 :ocp-product-title: {ocp_product_d796}
 :ocp-product-version: {_parent-version}
 :dedicated-product-title: {openshift_dedicated_product_f6ae}
-:rosa-product-title: {openshift_service_on_aws_product_17e7}
-:ServerlessProductName: {openshift_serverless_component_1ba8}
+:rosa-product-title: {openshift_service_aws_product_17e7}
+:ServerlessProductName: {openshift_svrless_component_1ba8}
 :ServerlessOperatorName: OpenShift Serverless Operator
