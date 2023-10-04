@@ -1,9 +1,9 @@
 # serverless-1.29-wfm
 
-Build this `metadata` branch using the following:
+Build this branch using:
 
 ```
-# asciidoctor -a multipage-level=1 -v -r ~/code/asciidoctor-plugins/extensions/json-ld-metadata.rb -r asciidoctor-multipage -b multipage_html5  master.adoc  -D out
+# asciidoctor -r ~/code/asciidoctor-multipage/lib/asciidoctor-multipage.rb -b multipage_html5 -D out master.adoc
 ```
 
 The asciidoctor-multipage comes from https://github.com/owenh000/asciidoctor-multipage
